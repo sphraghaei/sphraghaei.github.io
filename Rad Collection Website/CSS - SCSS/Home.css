@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'myfont';
+    src: url('../fonts/Shabnam.ttf');
+}
+
+body {
+    font-family: 'myfont';
+}
+
+/* Hero */
+
+.hero__image {
+    transition: ease-in .7s;
+}
+
+
+/* Cards */
+
+.card {
+    border: 3px solid rgb(112, 108, 108);
+    border-radius: 15px;
+    margin: 10px 10px;
+    align-items: center;
+}
+
+.card img {
+    width: 40%;
+    align-items: center;
+}
+
+.card-body h3 {
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.card-text {
+    font-weight: 600;
+}
+
+.card-body button {
+    align-items: center;
+    margin-left: 25px;
+}
