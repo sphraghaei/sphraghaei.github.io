@@ -17,12 +17,41 @@ body {
     clear: both;
 }
 
-/* Hero */
+/* Hero - Hero Animation */
 
 .hero__image {
     transition: ease-in .7s;
     align-items: center;
     margin: 0 auto;
+}
+
+h2{
+    position: relative;
+    font-size: 60px;
+    color: rgb(136, 136, 136);
+    -webkit-text-stroke: 0.3vw #ffffff;
+    text-transform: uppercase;
+}
+h2:before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height:100%;
+    color: rgb(107, 101, 107);
+    -webkit-text-stroke: 0vw #2488f7;
+    border-right: 1px solid rgb(20, 207, 220);
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate{
+    0%{
+        width: 0;
+    }
+    60%{
+        width: 100%;
+    }
 }
 
 /* Cards - Carousel */
