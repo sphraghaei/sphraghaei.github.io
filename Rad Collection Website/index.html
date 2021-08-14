@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./CSS - SCSS/Home.css">
+    <link href="./Assets/Images/logo.png">
+    <title>راد کالکشن</title>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./Assets/Images/logo.png" class="navbar__logo" alt=""></a>
+            <button class="navbar-toggler hamborder" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">صفحه اصلی</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">محصولات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">درباره ما</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">تماس با ما</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="loginform.html">پروفایل</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--HERO-->
+    <div class="hero">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6 hero__image">
+                    <img src="./Assets/Images/Hero_image.png"
+                        class="d-block mx-lg-auto img-fluid bg-secondary rounded-3 shadow-lg" alt="Bootstrap Themes"
+                        width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6 hero__text">
+                    <h1 class="display-5 fw-bold lh-1 mb-3 text-center">فروشگاه راد کالکشن</h1>
+                    <h2 data-text="Radcollection">Radcollection</h2>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a type="button" href="loginform.html"
+                            class="btn btn-lg mt-3 mx-auto btn-background btn-bor btn-fontsize btn-color btn-hover">همین
+                            الان
+                            خرید
+                            کن</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--CARD-->
+    <h3 class="card__headertext">پرفروش ترین محصولات</h3>
+    <div class="row owl-carousel">
+        <div class="col item">
+            <div class="card text-white bg-dark">
+                <img src="./Assets/Images/Advert-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">شال آبی</h3>
+                    <p class="card-text">قیمت : 120 هزارتومان</p>
+                    <button type="button" href="loginform.html" class="btn btn-success btn-lg mt-3">خرید</button>
+                </div>
+            </div>
+        </div>
+        <div class="col item">
+            <div class="card text-white bg-dark">
+                <img src="./Assets/Images/Advert-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">شال مشکی</h3>
+                    <p class="card-text">قیمت : 130 هزارتومان</p>
+                    <button type="button" href="loginform.html" class="btn btn-success btn-lg mt-3">خرید</button>
+                </div>
+            </div>
+        </div>
+        <div class="col item">
+            <div class="card text-white bg-dark">
+                <img src="./Assets/Images/Advert-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">شال طوسی</h3>
+                    <p class="card-text">قیمت : 140 هزارتومان</p>
+                    <button type="button" href="loginform.html" class="btn btn-success btn-lg mt-3">خرید</button>
+                </div>
+            </div>
+        </div>
+        <div class="col item">
+            <div class="card text-white bg-dark">
+                <img src="./Assets/Images/Hero_image.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title">شال سفید</h3>
+                    <p class="card-text">قیمت 150 هزارتومان</p>
+                    <button type="button" href="loginform.html" class="btn btn-success btn-lg mt-3">خرید</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--PRODUCT OVERVIEW-->
+
+    <div class="row">
+        <h3 class="product__headertext">همه شال ها</h3>
+        <div class="col bg-dark product__col">
+            <img src="./Assets/Images/P-overview1-removebg-preview.png" alt="">
+        </div>
+        <div class="col bg-dark product__col">
+            <img src="./Assets/Images/P-overview2-removebg-preview.png" alt="">
+        </div>
+        <div class="col bg-dark product__col">
+            <img src="./Assets/Images/P-overview3-removebg-preview.png" alt="">
+        </div>
+        <div class="col bg-dark product__col">
+            <img src="./Assets/Images/P-overview4-removebg-preview.png" alt="">
+        </div>
+        <div class="col bg-dark product__col">
+            <img src="./Assets/Images/P-overview5-removebg-preview.png" alt="">
+        </div>
+        <div class="col bg-dark product__col">
+            <img src="./Assets/Images/Advert-1.png" alt="">
+        </div>
+        <div class="col bg-dark product__col">
+            <img src="./Assets/Images/Advert-2.png" alt="">
+        </div>
+        <div class="col bg-dark product__col">
+            <img src="./Assets/Images/Advert-3.png" alt="">
+        </div>
+        <div class="col bg-dark product__col">
+            <img src="./Assets/Images/Hero_image.png" alt="">
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./JS/carousel.js"></script>
+</body>
+
+</html>
